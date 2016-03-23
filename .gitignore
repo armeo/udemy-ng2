@@ -1,3 +1,5 @@
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -24,10 +26,24 @@ coverage
 build/Release
 
 # Dependency directory
-node_modules
+node_modules/
+typings/
+lectures/
 
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+
+# Users Environment Variables
+.lock-wscript
+.tsdrc
+.typingsrc
+app/**/*.js
+app/**/*.js.map
+
+#IDE configuration files
+.idea
+.vscode
+*.iml
